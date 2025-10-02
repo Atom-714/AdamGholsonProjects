@@ -1,0 +1,12 @@
+To be done:
+Getting the game running on the client server model
+
+
+completed:
+server handling where attacks have been made
+server handling ship placement
+server sending updates on board status
+client getting updates on board status
+Session ID (Not main priority)
+client attacking
+
