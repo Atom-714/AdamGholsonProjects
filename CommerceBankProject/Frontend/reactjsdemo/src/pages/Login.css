@@ -1,0 +1,67 @@
+/*Background for login page*/
+.login-background {
+    /*Manually set the background-picture parameters in Login.jsx*/
+}
+
+/* Container for the login form with a green border */
+.login-form-container {
+    background-color: rgba(246, 217, 182, 0.7);
+    padding: 20px;
+    border: 3px solid #006649;
+    border-radius: 8px;
+    /*width: 600px;*/
+    width: 400px;
+}
+
+/*Creates a banner at the top of the login dialogue*/
+.login-form-container::before {
+    content: "";
+    background-image: url('src/assets/Logo.png');
+    background-size: 80%;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: block;
+    background-color: rgb(0, 102, 73);
+    padding: 50px;
+    margin: -20px -20px 20px -20px; /* negates .login-form-container's padding so it fills full width */
+    border-radius: 0;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+/* Label styling */
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: #006649;
+}
+
+/* Input fields styled with a green outline */
+.form-group input {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #006649;
+    font-weight: bold;
+    color: #000000;
+    background-color: #ffffff;
+    border-radius: 4px;
+}
+
+/* Green button styling */
+.login-button {
+    width: 100%;
+    padding: 10px;
+    background-color: #006649;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+/* A slight hover effect for the login button */
+.login-button:hover {
+    opacity: 0.9;
+}
